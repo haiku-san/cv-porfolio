@@ -1,12 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Portfolio | Brahim Elandaloussi - Web Développeur</title>
-</head>
-<body>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Brahim Elandaloussi - Portfolio</title>
+        <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
     
-</body>
+    <body>
+        <div id="main_wrapper">
+            <header>
+                <div id="logo">
+                    <svg 
+                        width="30" 
+                        height="37" 
+                        viewBox="0 0 30 37" 
+                        fill="none" 
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path 
+                            d="M13.272 0.135986C15.48 0.135986 17.568 0.543985 19.536 1.35998C21.456 2.17598 23.136 3.35198 24.576 4.88798C26.016 6.47198 27.168 8.36799 28.032 10.576C28.848 12.832 29.256 15.376 29.256 18.208C29.256 21.04 28.848 23.584 28.032 25.84C27.168 28.096 26.04 29.992 24.648 31.528C23.208 33.112 21.6 34.312 19.824 35.128C18 35.992 16.128 36.424 14.208 36.424C10.08 36.424 6.84003 35.032 4.48802 32.248C2.13602 29.464 0.960022 25.528 0.960022 20.44C0.960022 20.008 0.960022 19.576 0.960022 19.144C0.960022 18.712 1.00802 18.28 1.10402 17.848H26.016C25.968 15.688 25.632 13.672 25.008 11.8C24.384 9.97598 23.52 8.39198 22.416 7.04798C21.264 5.75198 19.896 4.71998 18.312 3.95198C16.728 3.23198 14.952 2.87198 12.984 2.87198C11.112 2.87198 9.43202 3.13598 7.94402 3.66398C6.40802 4.23998 4.99202 5.00798 3.69602 5.96798L2.40002 3.51998C3.79202 2.70398 5.32802 1.93598 7.00802 1.21598C8.64002 0.495986 10.728 0.135986 13.272 0.135986ZM26.016 20.44H3.98402C3.98402 24.904 4.89602 28.216 6.72003 30.376C8.54403 32.584 11.016 33.688 14.136 33.688C15.624 33.688 17.04 33.376 18.384 32.752C19.728 32.176 20.952 31.312 22.056 30.16C23.112 29.008 24 27.616 24.72 25.984C25.392 24.352 25.824 22.504 26.016 20.44Z" 
+                            fill="black"/>
+                    </svg>
+                        
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href=# data-text="home">home</a></li>
+                        <li><a href=# data-text="projects">projects</a></li>
+                        <li><a href=# data-text="contact">contact</a></li>
+                    </ul>
+
+                </nav>
+            </header>
+
+            <div id="firstRow">
+                <p>Brahim Elandaloussi</p>
+                <h1>Junior web developper</h1>
+            </div>
+            <div id="secondRow">
+                <h3 class="borderText">Based in</h3>
+                <h4>Ville-la-Grand, France</h4>
+            </div>
+            <div id="thirdRow">
+                <div id="textLinksDiv">
+                    <div class="verticalText">
+                        <a href=#><h2 class="textLink">Contact me</h2></a>
+                    </div>
+                    <div class="verticalText">
+                        <a href=#><h2 class="textLink">My works</h2></a>
+                    </div>
+                </div>
+
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+                    <img src="Ressources/img-example.jpg" class="exampleImg" alt="my work example">
+                </div>
+
+           
+
+            </div>
+            <footer class="footer">
+                <div class="footer__addr">
+                    <h1 class="footer__logo">Brahim Elandaloussi</h1>
+                        
+                    <h2>Contact</h2>
+                    
+                    <address>
+                      elandaloussi.contact@gmail.com<br>
+                          
+                      <a class="footer__btn" href="mailto:elandaloussi.contact@gmail.com">Email Me</a>
+                    </address>
+                  </div>
+                  
+                  <ul class="footer__nav">
+                    <li class="nav__item">
+                      <h2 class="nav__title">Social Media</h2>
+                
+                      <ul class="nav__ul">
+                        <li>
+                          <a href="#">Linkedin</a>
+                        </li>
+                
+                        <li>
+                          <a href="#">Instagram</a>
+                        </li>
+                            
+                        <li>
+                          <a href="#">GitHub</a>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                    <li class="nav__item">
+                      <h2 class="nav__title">My Creations</h2>
+                      
+                      <ul class="nav__ul nav__ul--extra">
+                        <li>
+                          <a href="#">Website 1</a>
+                        </li>
+                        
+                        <li>
+                          <a href="#">Website 2</a>
+                        </li>
+                        
+                        <li>
+                          <a href="#">Website 3</a>
+                        </li>
+                      </ul>
+                    </li>
+                    
+                    <li class="nav__item">
+                      <h2 class="nav__title">Legal</h2>
+                      
+                      <ul class="nav__ul">
+                        <li>
+                          <a href="#">Privacy Policy</a>
+                        </li>
+                        
+                        <li>
+                          <a href="#">Terms of Use</a>
+                        </li>
+                        
+                        <li>
+                          <a href="#">Sitemap</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  
+                  <div class="legal">
+                    
+                    <div class="legal__links">
+                    </div>
+                  </div>
+            </footer>
+        </div>
+    </body>
 </html>
